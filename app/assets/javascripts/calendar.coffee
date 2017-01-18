@@ -3,18 +3,5 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 $ ->
   $('#calendar').fullCalendar({
-
-    header: {
-      #title, prev, next, prevYear, nextYear, today
-      left: 'prev,next today',
-      center: 'title',
-      right: 'month agendaWeek agendaDay'
-    }
-
     firstDay: 1
-    height: 650
-    dayClick: ->
-      alert('日付クリックイベント')
-      return
-
   })
